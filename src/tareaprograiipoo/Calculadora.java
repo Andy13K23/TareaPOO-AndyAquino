@@ -10,13 +10,13 @@ public class Calculadora {
     private String numeroDeSerie;
     private String nombrePropietario;
     
-    //Constructor de la calse
-    public Calculadora(String propietario){
+    //Constructor de la clase
+    public Calculadora(String Andy){
         this.tipoCalculadora="Calculadora Básica";
         this.dimensionPantalla=10;
         this.numeroDeSerie="12345abc";
         this.color="Azul";
-        this.nombrePropietario=propietario;
+        this.nombrePropietario=Andy;
     }
     
     //Constructor vacio
@@ -58,5 +58,5 @@ public class Calculadora {
         }else{
             return false;
         }
-    }   
+    }  
 }

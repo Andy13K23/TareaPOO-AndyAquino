@@ -1,8 +1,12 @@
-
 package tareaprograiipoo;
 
-public class CalculadoraEspecial {
+public class CalculadoraEspecial extends Calculadora {
+
     
+    public CalculadoraEspecial(String Andy){
+        super(Andy);
+        this.tipoCalculadora = "Calculadora Especial";
+    }
     //area de un círculo
     public double calcularAreaCirculo(double radio) {
         return Math.PI * Math.pow(radio, 2);
